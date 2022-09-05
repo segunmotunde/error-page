@@ -1,0 +1,49 @@
+.four{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+#imgContainer{
+    background-image: url(78.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 80vh;
+}
+
+#textContainer{
+    align-items: center; 
+    justify-content: center;
+}
+#textContainer  {
+    font-family: 'Space Mono', monospace;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(69, 69, 69);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 990px){
+    #container{
+        display: flex;
+      }
+      #imgContainer img{
+        width: 20%;
+        max-height: fit-content;
+    }
+    #textContainer{
+        align-items: center; 
+        justify-content: center;
+    }
+
+    }
+ @media (min-width: 750px) and (max-width: 989px){ 
+    #container{
+        display: flex;
+      }
+   }   
